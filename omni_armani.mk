@@ -20,7 +20,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
  $(call inherit-product, vendor/omni/config/common.mk) 
   
  Inherit device configuration 
- $(call inherit-product, device/samsung/l900/full_l900.mk) 
+ $(call inherit-product, device/xiaomi/armani/full_armani.mk) 
   
  Discard inherited values and use our own instead. 
  PRODUCT_NAME := omni_armani 
